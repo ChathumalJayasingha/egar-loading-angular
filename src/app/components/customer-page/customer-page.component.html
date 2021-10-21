@@ -1,0 +1,11 @@
+<h2>Customer Component</h2>
+<hr>
+<div class="text-center">
+  <input (click)="loadPage('save')" type="button" value="save-button" class="btn btn-primary m-2 p-2">
+  <input (click)="loadPage('delete')" type="button" value="delete-button" class="btn btn-danger m-2 p-2">
+  <input (click)="loadPage('update')" type="button" value="update-button" class="btn btn-dark m-2 p-2">
+  <input (click)="loadPage('search')" type="button" value="search-button" class="btn btn-secondary m-2 p-2">
+</div>
+<input type="text"  [(ngModel)]="selectedId">
+
+<router-outlet> </router-outlet>

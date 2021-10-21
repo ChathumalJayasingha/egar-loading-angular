@@ -1,0 +1,27 @@
+.nav-outer{
+
+  ul{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 10px 20px;
+      display: inline;
+      margin: 20px;
+      background: black;
+      color: wheat;
+      cursor: pointer;
+      border: 10px solid red;
+      border-radius: 10px;
+    }
+    li:hover{
+      border: 10px solid #0048ff;
+      border-radius: 20px;
+    }
+  }
+}
+.activated-route{
+  border: 10px solid #0048ff !important;
+  border-radius: 20px;
+}
